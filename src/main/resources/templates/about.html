@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+    <head th:replace="common/header :: head"></head>
+</head>
+<body>
+    <div th:replace="common/header :: top-navigation">...</div>
+
+    <div class="container">
+
+        <div class="page-header">
+            <h1>About Us</h1>
+        </div><p th:text="'Proyecto Arem - Currency Converter'" />
+        <p class="lead">
+            Este proyecto convierte cualquier tipo de divisa con su tasa de cambio actual.<br/>
+            Ha sido desarrollado por Pedro Mayorga para la asignatura de Arquitectura Empresarial (AREM).<br/>
+            Las monedas con cantidades en números decimales, se manejan con "." en vez de ","
+        </p>
+
+    </div>
+
+    <div th:replace="common/footer :: footer">...</div>
+
+</body>
+</html>

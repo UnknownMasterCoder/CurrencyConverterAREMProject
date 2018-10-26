@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+    <head th:replace="common/header :: head"></head>
+</head>
+<body>
+    <div th:replace="common/header :: top-navigation">...</div>
+
+    <div class="container">
+
+        <div class="page-header">
+            <h1>Currency Converter Project</h1> 
+        </div>
+        <p th:text="'Arquitectura Empresarial - AREM, 2018-2'" />
+        <p class="lead">
+            Esta aplicacion web es un <b>Convertidor de Moneda</b> global, con la mayoria de divisas disponibles en el mundo.<br/>
+            Recibe una cantidad de dinero en cierto tipo de divisa y muestra el valor de dicha cantidad de dinero en cualquier divisa deseada.<br/>
+            La cuenta gratuita de <b>Currency Layer</b> solamente deja convertir desde $USD a cualquier otra moneda, por lo que conversiones desde otras monedas se encuentran bloqueadas.
+        </p><br/><br/>
+        <a href="/currencyconverter" class="lead">Empiece a Convertir Monedas</a>
+
+    </div>
+
+    <div th:replace="common/footer :: footer">...</div>
+
+</body>
+</html>
