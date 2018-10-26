@@ -61,34 +61,34 @@ public class Features {
     /**
      * @return the historical
      */
-    /*
+    
     public Boolean getHistorical() {
         return historical;
-    }*/
+    }
 
     /**
      * @param historical the historical to set
      */
-    /*
+    
     public void setHistorical(Boolean historical) {
         this.historical = historical;
-    }*/
+    }
 
     /**
      * @return the date
      */
-    /*
+    
     public String getDate() {
         return date;
-    }*/
+    }
 
     /**
      * @param date the date to set
      */
-    /*
+    
     public void setDate(String date) {
         this.date = date;
-    }*/
+    }
 
     /**
      * @return the source
